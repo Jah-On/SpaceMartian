@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Game": {
+      "commandName": "Executable",
+      "workingDirectory": "E:/git/tools/SpaceMartian/SpaceClient",
+      "executablePath": "C:/Program Files (x86)/Flax/Flax_1.10/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"E:/git/tools/SpaceMartian/SpaceClient\"",
+      "nativeDebugging": false
+    }
+  }
+}

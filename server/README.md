@@ -11,3 +11,8 @@ To run this
 6. Call Rust functions `spacetime call spacemartian send_message 'Hello World'`
 7. View DB logs `spacetime logs spacemartian`
 8. Run SQL queries `spacetime sql spacemartian "SELECT * FROM message"`
+
+And finally, autogen the code
+```
+spacetime generate --lang csharp --out-dir ../SpaceClient/Source/Game/Autogen
+```

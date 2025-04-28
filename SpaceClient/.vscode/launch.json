@@ -1,0 +1,236 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Editor.Windows.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Editor.Windows.Debug|x64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win64\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Editor.Windows.Debug|ARM64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Editor.Windows.Debug|ARM64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Editor.Windows.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Editor.Windows.Development|x64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win64\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Editor.Windows.Development|ARM64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Editor.Windows.Development|ARM64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Editor.Windows.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Editor.Windows.Release|x64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win64\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Editor.Windows.Release|ARM64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Editor.Windows.Release|ARM64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Debug|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Debug|x64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win64\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Debug|Win32 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Debug|Win32",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Debug|ARM64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Debug|ARM64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Debug\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Development|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Development|x64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win64\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Development|Win32 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Development|Win32",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Development|ARM64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Development|ARM64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Development\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Release|x64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Release|x64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win64\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Release|Win32 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Release|Win32",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient|Game.Windows.Release|ARM64 (C#)",
+			"request": "launch",
+			"preLaunchTask": "SpaceClient|Game.Windows.Release|ARM64",
+			"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient",
+			"program": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Editor\\Win32\\Release\\FlaxEditor",
+			"args": [
+				"-project",
+				"E:\\git\\tools\\SpaceMartian\\SpaceClient",
+				"-skipCompile"
+			],
+			"stopAtEntry": false,
+			"externalConsole": true
+		},
+		{
+			"type": "coreclr",
+			"name": "SpaceClient (C# Attach Editor)",
+			"request": "attach",
+			"processName": "FlaxEditor"
+		}
+	]
+}

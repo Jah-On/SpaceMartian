@@ -1,0 +1,335 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SpaceClient|Editor.Windows.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=x64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Editor.Windows.Debug|ARM64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=ARM64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Editor.Windows.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=x64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Editor.Windows.Development|ARM64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=ARM64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Editor.Windows.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=x64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Editor.Windows.Release|ARM64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=ARM64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameEditorTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Debug|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=x64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Debug|Win32",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=Win32",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Debug|ARM64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=ARM64",
+				"-configuration=Debug",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Development|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=x64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Development|Win32",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=Win32",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Development|ARM64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=ARM64",
+				"-configuration=Development",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Release|x64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=x64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Release|Win32",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=Win32",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		},
+		{
+			"label": "SpaceClient|Game.Windows.Release|ARM64",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"command": "C:\\Program Files (x86)\\Flax\\Flax_1.10\\Binaries\\Tools\\Flax.Build",
+			"args": [
+				"-build",
+				"-log",
+				"-mutex",
+				"\\\"-workspace=E:\\git\\tools\\SpaceMartian\\SpaceClient\\\"",
+				"-arch=ARM64",
+				"-configuration=Release",
+				"-platform=Windows",
+				"-buildTargets=GameTarget"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\git\\tools\\SpaceMartian\\SpaceClient"
+			}
+		}
+	]
+}

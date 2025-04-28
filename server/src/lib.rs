@@ -93,10 +93,14 @@ pub fn init(ctx: &ReducerContext) -> Result<(), String> {
 #[reducer(client_connected)]
 // Called when a client connects to a SpacetimeDB database server
 pub fn client_connected(ctx: &ReducerContext) {
-    ctx.db.user().insert(Player {
-        name: None,
-        identity: ctx.sender,
-    });
+    if let Some(user) = ctx.db.user().identity().find(ctx.sender) {
+        ctx.db.user().identity().update(Player { ..user });
+    } else {
+        ctx.db.user().insert(Player {
+            name: None,
+            identity: ctx.sender,
+        });
+    }
 }
 
 #[reducer(client_disconnected)]
@@ -168,7 +172,7 @@ pub fn update_physics(ctx: &ReducerContext, _timer: UpdatePhysicsTimer) -> Resul
     // TODO: ball out of bounds => reset ball
 
     for b in balls.into_iter() {
-        ctx.db.ball().insert(b);
+        ctx.db.ball().id().update(b);
     }
 
     Ok(())
